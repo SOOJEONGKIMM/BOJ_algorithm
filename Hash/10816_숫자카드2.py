@@ -16,7 +16,7 @@ for i in real_card:
         match[i] += 1
     else:
         match[i] = 1
-    print("match{0}={1}".format(i,match[i]))
+    #print("match{0}={1}".format(i,match[i]))
 
 for j in pred_card:
     if j in match:
