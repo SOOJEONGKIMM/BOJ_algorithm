@@ -1,3 +1,0 @@
-a = [65, 17, 4, 4, 64] b = int(input()) print(a[b-1])
-
-출처: https://eugene-lab.tistory.com/56?category=887747 [프로그래밍 일지]
