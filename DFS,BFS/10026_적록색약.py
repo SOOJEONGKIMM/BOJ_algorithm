@@ -7,8 +7,6 @@ n=int(read())
 
 colors = [list(read().rstrip()) for _ in range(n)]
 
-
-
 q=deque()
 
 def bfs(x,y):
