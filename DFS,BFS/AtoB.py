@@ -14,4 +14,4 @@ from collections import deque
  14         q.append((int(str(num)+'1'),cnt+1))
  15 
  16 print(-1)
-~             
+            
