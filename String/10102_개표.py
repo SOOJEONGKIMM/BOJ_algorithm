@@ -14,3 +14,5 @@ elif A == B:
     print('Tie')
 else:
     print('B')
+
+    
