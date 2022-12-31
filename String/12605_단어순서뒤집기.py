@@ -7,3 +7,5 @@ for i in range(n):
     arr.reverse()
     ans = " ".join(arr)
     print(f"Case #{i+1}: {ans}")
+
+    
