@@ -1,3 +1,6 @@
+
+
+
 #15805_트리나라관광가이드
 from collections import Counter
 n=int(input())
