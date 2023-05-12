@@ -1,18 +1,16 @@
-#9935_문자열 폭발
-import sys
-string = str(sys.stdin.readline().rstrip())
-explode = list(sys.stdin.readline().rstrip())
-
-len_ex = len(explode)
-stack=[]
-for i in string:
-    stack.append(i)
-    if i==explode[-1] and explode==stack[-len_ex:]:
-        for _ in range(len_ex):
+#9935_문자열폭발_
+string = str(input())
+exp = str(input())
+stack = []
+for i in range(len(string)):
+    stack.append(string[i])
+   # print(stack, stack[-len(exp):])
+    if exp==''.join(stack[-len(exp):]):
+        for j in range(len(exp)):
             stack.pop()
 
-res = ''.join(stack)
-if len(res)==0:
-    print("FRULA")
+if stack:
+    print(''.join(stack))
 else:
-    print(res)
+    print("FRULA")
+        
