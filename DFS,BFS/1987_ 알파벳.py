@@ -3,6 +3,7 @@ import sys
 dx=(-1,1,0,0)
 dy=(0,0,-1,1)
 ans=0
+
 def dfs(x,y,cnt):
     global ans
     ans=max(ans, cnt)
