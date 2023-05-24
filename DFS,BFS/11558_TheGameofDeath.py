@@ -6,6 +6,7 @@ def dfs(node,N):
             visited[i]=visited[node]+1
             dfs(i,N)
             
+            
 T=int(input())
 
 for _ in range(T):
