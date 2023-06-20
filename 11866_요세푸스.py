@@ -12,5 +12,3 @@ while s:
     if s:
         print(', ', end='')
 print('>')
-
-
